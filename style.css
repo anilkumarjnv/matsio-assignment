@@ -1,0 +1,341 @@
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80rem;
+  height: 72.375rem;
+  margin: auto;
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  height: 112px;
+
+}
+
+.top-nav {
+  width: 80rem;
+  height: 2.5rem;
+  position: absolute;
+  top: 0;
+  background: #163651;
+}
+
+.text {
+  position: relative;
+  left: 2.5rem;
+  top: 0.5625rem;
+  display: inline-flex;
+  align-items: center;
+  font-size: 0.875rem;
+  line-height: 1.3125rem;
+}
+
+.material-symbols-outlined,
+.seperator,
+.contact-details,
+.schedule {
+  margin-right: 5px;
+
+
+}
+
+.material-symbols-outlined {
+  color: #40a5a2;
+  font-size: 0.875rem;
+  font-family: "FontAwesome", sans-serif;
+}
+
+.seperator {
+  color: #f2efe6;
+  font-size: 0.875rem;
+}
+
+.contact-details,
+.schedule {
+  color: #f2efe6;
+  font-size: 0.875rem;
+  font-family: "Inter", sans-serif;
+  line-height: 18px;
+}
+
+.icons-container {
+  width: 7.5rem;
+  height: 1.5rem;
+  position: absolute;
+  left: 70rem;
+  top: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-wrapper {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}
+
+
+.icon-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: relative;
+  width: 100%;
+  height: 72px;
+  top: 40px;
+  display: flex;
+
+  gap: 25em;
+
+}
+
+.logo {
+  position: relative;
+  left: 40px;
+  display: inline-flex;
+
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  width: Hug (725px);
+  height: Hug (20px);
+  top: 66px;
+  left: 515px;
+  gap: 32px;
+
+}
+
+.menu ul li {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+
+}
+
+.menu ul li:hover {
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.content {
+  margin: 0;
+  width: 80rem;
+  background-image: url(/images/bg.svg);
+  height: 41rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.ad {
+  width: 35rem;
+  color: white;
+  height: 18.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: auto 2.5em;
+
+}
+
+.ad h1 {
+  width: 35rem;
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 4.2rem;
+
+}
+
+.ad p {
+  width: 27.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.ad button,
+form button {
+  width: 8rem;
+  height: 2.5rem;
+  font-family: inter;
+  font-weight: 400;
+  border-radius: 1.5625rem;
+  color: white;
+  background-color: #40a5a2;
+}
+
+.form {
+  width: 22.8125rem;
+  height: 30.6875rem;
+  background-color: white;
+  margin: auto 2em;
+  border-radius: 1rem;
+
+  gap: 1.5rem;
+}
+
+.form h4 {
+  font-weight: 600;
+  font-size: 1.5625rem;
+  line-height: 2.34375rem;
+  color: #02274C;
+  text-align: center;
+}
+
+.form form {
+  margin: 1.5em;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 2em;
+  box-sizing: border-box;
+  border-radius: 1rem;
+  border-width: 1px;
+  border: 1px solid #c4c4c4;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"] {
+  vertical-align: middle;
+  width: fit-content;
+  transform: scale(2);
+  margin: 0.5em 1em;
+}
+
+form button {
+  background-color: #02274C;
+  margin-top: 1rem;
+  Padding: 0.6875rem, 1.5rem;
+  font-weight: 700;
+  font-size: 1.25em;
+
+}
+
+.arrow-circle {
+  font-size: 1em;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1.125rem;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #ccc;
+  color: #02274C;
+}
+
+
+.circle-container {
+  position: relative;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: #40a5a2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-image {
+  width: 50%;
+  height: auto;
+  margin: 2em;
+  color: black;
+  cursor: pointer;
+}
+
+.footer {
+  width: 80rem;
+  margin: 0;
+  background-color: #fff;
+  height: 24.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.card1,
+.card2,
+.card3 {
+  margin: 2.5em;
+}
+
+.card-title {
+  width: fit-content;
+  height: 1.875;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #163651;
+  margin-bottom: 1em;
+  margin-top: 1.25em;
+  cursor: pointer;
+}
+
+.card-title:hover {
+
+  font-size: 1.5rem;
+}
+
+.card-description {
+  width: 23rem;
+  height: 4.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+
+}
